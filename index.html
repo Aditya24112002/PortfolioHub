@@ -1,49 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aditya's Portfolio</title>
+    <title>Aditya Portfolio</title>
 
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img id="mainLogo" src="assets/images/ABLogo.svg" alt="Logo">
+                <span>Aditya.dev</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="login-btn">
+                Login
+            </button>
+        </nav>
+    </header>
 
-    <nav>
-        <div class="logo">
-            PortfolioHub
+    <main>
+        <section class="hero">
+            <p class="hero-greeting">
+                👋 Welcome to my portfolio
+            </p>
+            <h1>
+                Hi, I'm Aditya
+            </h1>
+            <h2>
+                Software Developer
+            </h2>
+        
+            <p class="hero-description">
+                Passionate about building scalable web applications,
+                solving real-world problems, and continuously learning
+                modern technologies.
+            </p>
+
+            <div class="hero-buttons">
+                <button class="hero-btn">
+                    View Projects
+                </button>
+                <button class="secondary-btn">
+                    Contact Me
+                </button>
+            </div>
+
+            <div class="social-links">
+        
+                <a href="https://github.com/Aditya24112002" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/aditya-bhadra-891148251/" target="_blank">LinkedIn</a>
+                <a href="mailto:adi24112002@gmail.com">Email</a>
+        
+            </div>
+        </section>
+    </main>
+
+    <div id="logoModal" class="logo-modal">
+        <div class="logo-card">
+            <img
+                src="assets/images/ABLogo.svg"
+                alt="Logo"
+                class="modal-logo"
+            >
+            <img
+                id="closeModal"
+                class="close-icon"
+                src="assets/icons/Close.svg"
+                alt="Close"
+            >
+
+            <h2>Aditya Bhadra</h2>
+            <p>Software Developer</p>
+            <p>Full Stack Enthusiast</p>
+
+            
         </div>
-
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="pages/about.html">About</a></li>
-            <li><a href="pages/projects.html">Projects</a></li>
-            <li><a href="pages/contact.html">Contact</a></li>
-        </ul>
-
-        <button class="login-btn">
-            Login
-        </button>
-    </nav>
-
-    <section class="hero">
-
-        <h1>
-            Hi, I'm Aditya
-        </h1>
-
-        <p>
-            Full Stack Developer in Progress
-        </p>
-
-        <button>
-            View Projects
-        </button>
-
-    </section>
+    </div>
 
     <script src="js/script.js"></script>
 
 </body>
+
 </html>
