@@ -58,6 +58,7 @@ body {
   color: var(--text-light);
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .dark-text{
   color: var(--text-dark);
 }

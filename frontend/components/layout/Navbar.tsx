@@ -1,4 +1,4 @@
-import ThemeSwitcher from "./ThemeSwitcher";
+import ThemeSwitcher from "../ThemeSwitcher";
 export default function Navbar() {
     return (
       <nav className="grid grid-cols-3 items-center px-10 py-5 bg-[var(--bg-sub)]">
