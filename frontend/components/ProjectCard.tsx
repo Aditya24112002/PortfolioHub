@@ -32,7 +32,7 @@ type ProjectCardProps = {
           {technologies.map((tech) => (
             <span
             key={tech}
-            className="rounded-full bg-[var(--button-bg)] px-3 py-1 text-sm theme-accent">
+            className="rounded-full bg-[var(--button-bg)] text-[var(--text-dark)] px-3 py-1 text-sm theme-accent">
               {tech}
             </span>
           ))}
